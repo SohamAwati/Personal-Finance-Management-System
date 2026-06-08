@@ -1,0 +1,174 @@
+==================================================
+          PYTHON PROBLEM SOLVING TOOLKIT          
+                EXECUTION REPORT                  
+==================================================
+
+Report Generated: 2026-06-08 23:05:35
+Total Challenges Implemented: 21
+Categories Covered: 3
+Total Invocations: 28
+
+--- Invocation Statistics ---
+- reverse_string: 2 time(s)
+- count_vowels: 2 time(s)
+- is_palindrome: 2 time(s)
+- convert_to_sentence_case: 2 time(s)
+- find_largest: 2 time(s)
+- count_char_frequency: 2 time(s)
+- merge_dictionaries: 2 time(s)
+- count_word_frequency: 1 time(s)
+- find_longest_word: 1 time(s)
+- remove_duplicate_characters: 1 time(s)
+- find_smallest: 1 time(s)
+- remove_duplicates: 1 time(s)
+- find_common_elements: 1 time(s)
+- count_even_odd: 1 time(s)
+- find_second_largest: 1 time(s)
+- manual_sort: 1 time(s)
+- find_max_value_key: 1 time(s)
+- calculate_student_averages: 1 time(s)
+- group_by_category: 1 time(s)
+- count_word_frequency_dict: 1 time(s)
+- analyze_nested_dict: 1 time(s)
+
+--- Detailed Execution Summary ---
+1. [2026-06-08 23:03:59] String -> reverse_string
+   Status: SUCCESS
+   Inputs: {"args": ["Hello world! This is a test. Is it a palindrome? Madam, yes."], "kwargs": {}}
+   Outputs: ".sey ,madaM ?emordnilap a ti sI .tset a si sihT !dlrow olleH"
+   ----------------------------------------------
+2. [2026-06-08 23:04:05] String -> count_vowels
+   Status: SUCCESS
+   Inputs: {"args": ["Hello world! This is a test. Is it a palindrome? Madam, yes."], "kwargs": {}}
+   Outputs: 17
+   ----------------------------------------------
+3. [2026-06-08 23:04:20] String -> is_palindrome
+   Status: SUCCESS
+   Inputs: {"args": ["Hello world! This is a test. Is it a palindrome? Madam, yes."], "kwargs": {}}
+   Outputs: false
+   ----------------------------------------------
+4. [2026-06-08 23:04:31] String -> convert_to_sentence_case
+   Status: SUCCESS
+   Inputs: {"args": ["Hello world! This is a test. Is it a palindrome? Madam, yes."], "kwargs": {}}
+   Outputs: "Hello world! This is a test. Is it a palindrome? Madam, yes."
+   ----------------------------------------------
+5. [2026-06-08 23:05:03] List -> find_largest
+   Status: SUCCESS
+   Inputs: {"args": [[10, -5, 34, 18, 9]], "kwargs": {}}
+   Outputs: 34
+   ----------------------------------------------
+6. [2026-06-08 23:05:18] Dictionary -> count_char_frequency
+   Status: SUCCESS
+   Inputs: {"args": ["abracadabra"], "kwargs": {}}
+   Outputs: {"a": 5, "b": 2, "r": 2, "c": 1, "d": 1}
+   ----------------------------------------------
+7. [2026-06-08 23:05:22] Dictionary -> merge_dictionaries
+   Status: SUCCESS
+   Inputs: {"args": [{"apples": 10, "fruits": ["banana"], "config": {"debug": true}}, {"apples": 5, "fruits": ["mango"], "config": {"port": 8080}, "active": true}], "kwargs": {}}
+   Outputs: {"apples": 15, "fruits": ["banana", "mango"], "config": {"debug": true, "port": 8080}, "active": true}
+   ----------------------------------------------
+8. [2026-06-08 23:05:29] String -> reverse_string
+   Status: SUCCESS
+   Inputs: {"args": ["python"], "kwargs": {}}
+   Outputs: "nohtyp"
+   ----------------------------------------------
+9. [2026-06-08 23:05:29] String -> count_vowels
+   Status: SUCCESS
+   Inputs: {"args": ["Hello World"], "kwargs": {}}
+   Outputs: 3
+   ----------------------------------------------
+10. [2026-06-08 23:05:29] String -> is_palindrome
+   Status: SUCCESS
+   Inputs: {"args": ["A man, a plan, a canal: Panama"], "kwargs": {}}
+   Outputs: true
+   ----------------------------------------------
+11. [2026-06-08 23:05:29] String -> convert_to_sentence_case
+   Status: SUCCESS
+   Inputs: {"args": ["hello world. this is python."], "kwargs": {}}
+   Outputs: "Hello world. This is python."
+   ----------------------------------------------
+12. [2026-06-08 23:05:29] String -> count_word_frequency
+   Status: SUCCESS
+   Inputs: {"args": ["Hello world! Hello again."], "kwargs": {}}
+   Outputs: {"hello": 2, "world": 1, "again": 1}
+   ----------------------------------------------
+13. [2026-06-08 23:05:29] String -> find_longest_word
+   Status: SUCCESS
+   Inputs: {"args": ["Find the longest word in this sentence."], "kwargs": {}}
+   Outputs: "sentence"
+   ----------------------------------------------
+14. [2026-06-08 23:05:29] String -> remove_duplicate_characters
+   Status: SUCCESS
+   Inputs: {"args": ["programming"], "kwargs": {}}
+   Outputs: "progamin"
+   ----------------------------------------------
+15. [2026-06-08 23:05:29] List -> find_largest
+   Status: SUCCESS
+   Inputs: {"args": [[1, 5, 3]], "kwargs": {}}
+   Outputs: 5
+   ----------------------------------------------
+16. [2026-06-08 23:05:29] List -> find_smallest
+   Status: SUCCESS
+   Inputs: {"args": [[1, 5, 3]], "kwargs": {}}
+   Outputs: 1
+   ----------------------------------------------
+17. [2026-06-08 23:05:29] List -> remove_duplicates
+   Status: SUCCESS
+   Inputs: {"args": [[1, 2, 2, 3]], "kwargs": {}}
+   Outputs: [1, 2, 3]
+   ----------------------------------------------
+18. [2026-06-08 23:05:29] List -> find_common_elements
+   Status: SUCCESS
+   Inputs: {"args": [[1, 2, 3], [2, 3, 4]], "kwargs": {}}
+   Outputs: [2, 3]
+   ----------------------------------------------
+19. [2026-06-08 23:05:29] List -> count_even_odd
+   Status: SUCCESS
+   Inputs: {"args": [[1, 2, 3, 4]], "kwargs": {}}
+   Outputs: {"even": 2, "odd": 2}
+   ----------------------------------------------
+20. [2026-06-08 23:05:29] List -> find_second_largest
+   Status: SUCCESS
+   Inputs: {"args": [[1, 5, 5, 3]], "kwargs": {}}
+   Outputs: 3
+   ----------------------------------------------
+21. [2026-06-08 23:05:29] List -> manual_sort
+   Status: SUCCESS
+   Inputs: {"args": [[3, 1, 4]], "kwargs": {}}
+   Outputs: [1, 3, 4]
+   ----------------------------------------------
+22. [2026-06-08 23:05:29] Dictionary -> count_char_frequency
+   Status: SUCCESS
+   Inputs: {"args": ["hello"], "kwargs": {}}
+   Outputs: {"h": 1, "e": 1, "l": 2, "o": 1}
+   ----------------------------------------------
+23. [2026-06-08 23:05:29] Dictionary -> merge_dictionaries
+   Status: SUCCESS
+   Inputs: {"args": [{"a": 1, "b": 2}, {"b": 3, "c": 4}], "kwargs": {}}
+   Outputs: {"a": 1, "b": 5, "c": 4}
+   ----------------------------------------------
+24. [2026-06-08 23:05:29] Dictionary -> find_max_value_key
+   Status: SUCCESS
+   Inputs: {"args": [{"apple": 10, "banana": 15}], "kwargs": {}}
+   Outputs: "banana"
+   ----------------------------------------------
+25. [2026-06-08 23:05:29] Dictionary -> calculate_student_averages
+   Status: SUCCESS
+   Inputs: {"args": [{"Alice": [80, 90], "Bob": [70, 85]}], "kwargs": {}}
+   Outputs: {"Alice": 85.0, "Bob": 77.5}
+   ----------------------------------------------
+26. [2026-06-08 23:05:29] Dictionary -> group_by_category
+   Status: SUCCESS
+   Inputs: {"args": [[{"name": "Apple", "type": "Fruit"}, {"name": "Carrot", "type": "Veg"}], "type"], "kwargs": {}}
+   Outputs: {"Fruit": [{"name": "Apple", "type": "Fruit"}], "Veg": [{"name": "Carrot", "type": "Veg"}]}
+   ----------------------------------------------
+27. [2026-06-08 23:05:29] Dictionary -> count_word_frequency_dict
+   Status: SUCCESS
+   Inputs: {"args": [["apple ", " Apple", "banana"]], "kwargs": {}}
+   Outputs: {"apple": 2, "banana": 1}
+   ----------------------------------------------
+28. [2026-06-08 23:05:29] Dictionary -> analyze_nested_dict
+   Status: SUCCESS
+   Inputs: {"args": [{"a": 1, "nested": {"a": 2, "b": 3}}, "a"], "kwargs": {}}
+   Outputs: [1, 2]
+   ----------------------------------------------
