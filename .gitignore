@@ -1,0 +1,11 @@
+.DS_Store
+.venv/
+.vscode/
+__pycache__/
+*.py[cod]
+*.log
+logs/
+backups/
+*.egg-info/
+build/
+dist/

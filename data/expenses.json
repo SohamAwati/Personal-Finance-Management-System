@@ -1,0 +1,16 @@
+[
+    {
+        "expense_id": "EXP-0001",
+        "date": "2026-06-06",
+        "category": "Travel",
+        "description": "Udaipur Trip",
+        "amount": 33000.0
+    },
+    {
+        "expense_id": "EXP-0002",
+        "date": "2026-06-05",
+        "category": "Rent",
+        "description": "Flat rent",
+        "amount": 320000.0
+    }
+]
